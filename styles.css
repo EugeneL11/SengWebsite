@@ -1,0 +1,495 @@
+/* Course: SENG 513 */
+/* Date: SEPT 28, 2023 */
+/* Assignment 1 */
+/* Name: Eugene Lee */
+/* UCID: 30137489 */
+
+/** EVERYTHING (CHANGE FONT) **/
+body {
+    font-family: 'Titillium Web', sans-serif;
+    color: #3C3C3C;
+    margin: 0;
+}
+
+button {
+    background-color: #2E9CCA;
+    color: #FFF;
+    border: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+button:hover {
+    cursor: pointer;
+}
+
+/** HEADER **/
+.header {
+    display: flex;
+    background-color: #25274D;
+    color: #FFF;
+    font-weight: lighter;
+}
+.hLogo {
+    font-size: 40px;
+    font-weight: lighter;
+    padding: 9px 25px 9px 120px;
+    letter-spacing: -3.5px;
+}
+.hSlogan {
+    font-style: italic;
+    font-size: 18px;
+    margin: auto 15px;
+}
+.hButton {
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 60px;
+}
+
+/** CONTENT ONE **/
+.cOne {
+    background-image: url("./images/top_image_large.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FFF;
+    padding: 30px 0 200px 120px;
+    line-height: 1.5;
+}
+.oneTitle {
+    font-size: 45px;
+    max-width: 300px;
+}
+.oneText {
+    font-size: 23px;
+    max-width: 390px;
+}
+
+/** CONTENT TWO **/
+.oneTitle.two {
+    display: none;
+}
+.oneText.two {
+    display: none;
+}
+.hButton.two {
+    display: none;
+}
+.cTwo {
+    padding: 0 150px 40px 150px;
+    color: #25274D;
+    line-height: 1.4;
+}
+.cTitle {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 30px 0 25px;
+}
+.twoText {
+    font-size: 19px;
+}
+
+/** CONTENT THREE **/
+.cThree {
+    background-color: #25274D;
+    padding: 70px 50px 36px
+}
+.vid {
+    width: 100%;
+    height: auto;
+}
+
+/** CONTENT FOUR **/
+.fourTitle {
+    font-size: 30px;
+    text-align: center;
+    margin: 70px;
+    font-weight: 600;
+}
+.products {
+    display: flex;
+    justify-content: space-evenly;
+}
+.product {
+    /* max-width: 321px; */
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.productImg {
+    max-width: 642px;
+    width: 22vw;
+    max-height: 317px;
+}
+.pTitle {
+    font-size: 23px;
+    margin-bottom: 0;
+}
+.pText { /* try vw or vedge for images */
+    max-width: 305px;
+    font-size: 22px;
+    width: fit-content;
+}
+.pButton {
+    font-size: 17px;
+    font-weight: 600;
+    width: 150px;
+    height: 60px;
+    padding: 12px 20px;
+    margin-bottom: 120px;
+}
+
+/** CONTENT FIVE **/
+.cFive {
+    background-color: #29648A;
+    background-image: url("./images/flourish.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 880px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+.fLogo {
+    margin: 100px auto 5px;
+}
+.rTitle {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+}
+.rList {
+    font-size: 23px;
+    display: flex;
+    max-height: 600px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    list-style-position: inside;
+    padding: 0;
+}
+.rText1 {
+    max-width: 530px;
+    width: 42vw;
+    margin: 20px;
+}
+.rText2 {
+    margin-top: 30px;
+}
+
+/** CONTENT SIX **/
+.cSix {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 50px 70px;
+    gap: 20px;
+}
+.sixLeft, .sixRight {
+    /* max-width: 520px; */
+    width: 42vw;
+}
+.sixTitle {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.sixList {
+    font-size: 20px;
+}
+
+/** CONTENT SEVEN **/
+.cSeven {
+    background-color: #FEF9F7;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+.toTop {
+    align-self: flex-end;
+}
+.topIcon {
+    width: 110px;
+    height: 120px;
+}
+.sevenTitle {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 310px;
+    margin-top: 0;
+}
+.shipping {
+    display: flex;
+    margin-top: 20px;
+}
+.truck1 {
+    margin-left: -57px;
+}
+.truck2 {
+    display: none;
+}
+.shipLeft, .shipRight {
+    max-width: 500px;
+}
+.shipLeft {
+    margin: 0 40px 0 60px;
+}
+.shipTitle {
+    font-size: 23px;
+    margin: 0;
+}
+.shipText {
+    font-size: 22px;
+}
+
+/** CONTENT EIGHT **/
+.cEight {
+    background-color: #29648A;
+    color: #FFF;
+    padding-top: 110px;
+    padding-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.8;
+    border-bottom: 1px solid white;
+}
+.eightTitle {
+    font-size: 29px;
+    font-weight: 600;
+    max-width: 440px;
+    margin-bottom: 10px;
+}
+.eightText {
+    font-size: 19px;
+    max-width: 390px;
+    margin-bottom: 42px;
+}
+.contact {
+    font-size: 17px;
+    padding: 18px 25px;
+    font-weight: 600;
+}
+
+/** FOOTER **/
+.footer {
+    background-color: #25274D;
+    color: #FFF;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* MOBILE VERSION */
+@media (max-width: 700px) {
+    /* HEADER */
+    .header {
+        display: block;
+        padding: 20px;
+    }
+    .hLogo {
+        margin: 0;
+        padding: 0;
+        font-size: 43px;
+        font-weight: lighter;
+    }
+    .hSlogan {
+        margin: 0;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    .hButton {
+        display: none;
+    }
+
+    /* CONTENT ONE */
+    .cOne {
+        height: 190px;
+        background-image: url("./images/top_image_small.png");
+    }
+    .oneTitle {
+        display: none;
+    }
+    .oneText {
+        display: none;
+    }
+
+    /* CONTENT TWO */
+    .oneTitle.two {
+        display: block;
+        max-width: none;
+        font-size: 32px;
+        padding: 25px 0 30px;
+        margin: 0;
+    }
+    .oneText.two {
+        display: block;
+        max-width: none;
+        font-size: 22px;
+        margin: 0;
+    }
+    .hButton.two {
+        display: block;
+        margin: 20px 0 0;
+        padding: 18px 25px;
+    }
+    .cTwo {
+        padding-left: 23px;
+        padding-right: 50px;
+    }
+    .cTitle {
+        font-size: 29px;
+    }
+    .twoText {
+        font-size: 19px;
+    }
+
+    /* CONTENT THREE */
+    .cThree {
+        padding: 100px 25px 40px;
+    }
+
+    /* CONTENT FOUR */
+    .products {
+        display: block;
+    }
+    .product {
+        width: 100%;
+        max-width: none;
+    }
+    .productImg {
+        max-width: none;
+        width: 100%;
+    }
+    .pTitle {
+        padding: 20px 23px;
+        font-size: 25px;
+    }
+    .pText {
+        margin: 0;
+        padding: 0 23px;
+        max-width: none;
+        font-size: 23px;
+    }
+    .pButton {
+        margin: 20px 0 80px 23px;
+    }
+
+    /* CONTENT FIVE */
+    .cFive {
+        background-image: none;
+        height: auto;
+        padding-bottom: 35px;
+    }
+    .fLogo {
+        margin: 85px auto 5px;
+    }
+    .rTitle {
+        font-size: 30px;
+        padding: 5px 0 15px;
+    }
+    .rList {
+        max-height: none;
+        margin-left: -20px;
+        list-style-position: outside;
+    }
+    ol li::marker {
+        font-size: 16px;
+    }
+    .rText1 {
+        width: 80vw;
+        margin: 8px;
+    }
+    .rText2 {
+        margin-top: 28px;
+    }
+
+    /* CONTENT SIX */
+    .cSix {
+        display: block;
+        padding: 20px 20px 70px 10px;
+    }
+    .cTitle.six {
+        padding-left: 20px;
+    }
+    .sixTitle {
+        padding-top: 0;
+        padding-left: 20px;
+    }
+    .sixLeft, .sixRight {
+        width: 85vw;
+    }
+
+    /* CONTENT SEVEN */
+    .cSeven {
+        display: block;
+        padding-bottom: 5px;
+    }
+    .toTop {
+        display: block;
+        text-align: center;
+        margin-bottom: -22px;
+    }
+    .topIcon {
+        width: 9vw;
+        height: 10vw;
+    }
+    .sevenTitle {
+        display: inline;
+        margin-top: 0;
+        margin-bottom: 80px;
+        font-size: 33px;
+    }
+    .truck2 {
+        display: inline;
+        float: right;
+        width: 17%;
+        height: 17%;
+        margin-top: -15px;
+    }
+    .sevenTitle, .shipLeft, .shipRight {
+        margin-left: 25px;
+    }
+    .shipping {
+        display: block;
+    }
+    .shipLeft {
+        margin-top: 50px;
+        margin-bottom: 45px;
+    }
+    .truck1 {
+        display: none;
+    }
+
+    /* CONTENT EIGHT */
+    .cEight {
+        align-items: flex-start;
+        text-align: left;
+        padding: 50px 23px 70px 23px;
+    }
+    .eightTitle {
+        font-size: 31px;
+        max-width: none;
+        width: 90vw;
+    }
+    .eightText {
+        font-size: 22px;
+        max-width: none;
+        width: 85vw;
+    }
+    .contact {
+        padding: 18px 35px;
+    }
+
+    /* FOOTER */
+    .footer {
+        font-size: 21px;
+        padding: 21px 50px;
+    }
+}
