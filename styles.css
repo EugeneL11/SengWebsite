@@ -365,6 +365,8 @@ button:hover {
     /* CONTENT FOUR */
     .products {
         display: block;
+        padding-left: 0;
+        padding-right: 0;
     }
     .product {
         width: 100%;
